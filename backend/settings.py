@@ -234,7 +234,7 @@ DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 # DEFAULT_FILE_STORAGE = 'core.azure_storage.AzureMediaStorage'
 # STATICFILES_STORAGE = 'core.azure_storage.AzureStaticStorage'
 AZURE_ACCOUNT_NAME='reactdjango1'
-AZURE_ACCOUNT_KEY=  os.environ.get('AZURE_ACCOUNT_KEY') #'RiXM+K4YVycp+Y+v2qImbB3UFTnmwFhijtvYVc5nss6ljaLuZ0BjaARWZeCFs2E+nCIj6G22EW7L+ASt6FuRJQ=='
+AZURE_ACCOUNT_KEY=  os.environ.get('AZURE_ACCOUNT_KEY')
 AZURE_CUSTOM_DOMAIN = f'{AZURE_ACCOUNT_NAME}.blob.core.windows.net'
 AZURE_CONTAINER  = 'images'
 # STATIC_URL = f'https://{AZURE_CUSTOM_DOMAIN}/static/'
